@@ -1,9 +1,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+import LandingPage from './components/landingPage/LandingPage';
 
 class App extends React.Component {
   render() {
-    return <h1> Hi I'm jessica </h1>;
+    return (
+      <LandingPage/>
+    );
   }
 }
 
