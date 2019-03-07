@@ -6,7 +6,9 @@ import './main.css';
 class App extends React.Component {
   render() {
     return (
-      <LandingPage/>
+      <div>
+        <LandingPage/>
+      </div>
     );
   }
 }
