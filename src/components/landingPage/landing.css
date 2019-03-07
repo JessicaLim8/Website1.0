@@ -1,0 +1,12 @@
+.landing {
+  background-color: navy;
+  color: white;
+}
+
+#hover {
+  color: white;
+}
+
+#not-hover {
+  color: grey;
+}
