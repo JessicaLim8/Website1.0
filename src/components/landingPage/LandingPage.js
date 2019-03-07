@@ -23,8 +23,11 @@ class LandingPage extends React.Component {
         </div>
         <div className="iconBar">
           <MediaIcon icon={faGithubSquare} />
+          <br/>
           <MediaIcon icon={faLinkedin} />
+          <br/>
           <MediaIcon icon={faEnvelopeSquare} />
+          <br/>
           <MediaIcon icon={faFile} />
         </div>
       </div>

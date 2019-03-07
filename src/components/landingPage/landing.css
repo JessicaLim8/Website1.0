@@ -1,6 +1,15 @@
 .landing {
-  background-color: navy;
   color: white;
+}
+
+.iconBar {
+  float: right;
+  font-size: 3em;
+  margin: 30px;
+}
+
+.mainInfo {
+  text-align: center;
 }
 
 #hover {
