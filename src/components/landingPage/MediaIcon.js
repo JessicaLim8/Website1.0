@@ -17,12 +17,14 @@ class MediaIcon extends React.Component {
 
   render() {
     return (
-      <FontAwesomeIcon
-        icon={this.props.icon}
-        id = {this.state.hover ? "hover" : "not-hover"}
-        onMouseEnter={this.onMouseEnter.bind(this)}
-        onMouseLeave={this.onMouseOut.bind(this)}
-      />
+      <a href= {this.props.href}>
+        <FontAwesomeIcon
+          icon={this.props.icon}
+          id = {this.state.hover ? "hover" : "not-hover"}
+          onMouseEnter={this.onMouseEnter.bind(this)}
+          onMouseLeave={this.onMouseOut.bind(this)}
+        />
+      </a>
     );
   }
 }
