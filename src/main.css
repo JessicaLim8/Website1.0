@@ -1,4 +1,7 @@
 body {
-  background-color: navy;
+  background-image: url("background.jpg");
+  background-color: #85F1D7; 
   color: white;
+  font-family: "courier-new";
 }
+
