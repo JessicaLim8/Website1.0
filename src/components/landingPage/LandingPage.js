@@ -3,7 +3,8 @@ import Typed from 'react-typed';
 import { faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelopeSquare, faFile } from '@fortawesome/free-solid-svg-icons';
 import MediaIcon from './MediaIcon';
-import './landing.css';
+import '../../main.css';
+//import './landing.css';
 import Headshot from './headshot.jpg';
 
 class LandingPage extends React.Component {
