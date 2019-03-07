@@ -21,7 +21,7 @@ class LandingPage extends React.Component {
               />
             </h1>
             <p className="blurb">
-              blah blah blah paragraph on how i am cool
+              A McMaster Biomedical engineering student, I love tackling challenges with a design oriented approach. I have a passion for using technology to find innovative solutions to tomorrow's problems.
             </p>
           </div>
         </div>
