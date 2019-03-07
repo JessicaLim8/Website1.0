@@ -4,22 +4,26 @@ import { faGithubSquare, faLinkedin } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelopeSquare, faFile } from '@fortawesome/free-solid-svg-icons';
 import MediaIcon from './MediaIcon';
 import './landing.css';
+import Headshot from './headshot.jpg';
 
 class LandingPage extends React.Component {
   render() {
     return (
       <div className="landing">
         <div className="mainInfo">
-          <h1 id="heading">
-            <Typed
-              startDelay={500}
-              strings={["Hi I'm Jessica Lim"]}
-              typeSpeed={60}
-            />
-          </h1>
-          <p className="blurb">
-            blah blah blah paragraph on how i am cool
-          </p>
+          <img src={Headshot} id="headshot" alt="Headshot"/>
+          <div className="textBox">
+            <h1 id="heading">
+              <Typed
+                startDelay={500}
+                strings={["Hi I'm Jessica Lim"]}
+                typeSpeed={60}
+              />
+            </h1>
+            <p className="blurb">
+              blah blah blah paragraph on how i am cool
+            </p>
+          </div>
         </div>
         <div className="iconBar">
           <MediaIcon icon={faGithubSquare} href="https://github.com/JessicaLim8"/>
