@@ -1,5 +1,6 @@
 body {
-  background-image: url("background.jpg");
+  background-image: url("background.png");
+  position: absolute;
   background-color: #85F1D7; 
   color: white;
   font-family: 'B612';
@@ -39,7 +40,6 @@ p {
 }
 
 .textBox {
-  text-align: center;
   margin: 10px;
   align-self: center;
   max-width: 400px;
