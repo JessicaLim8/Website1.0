@@ -12,7 +12,7 @@ class LandingPage extends React.Component {
       <div className="landing">
         <div className="mainInfo">
           <img src={Headshot} id="headshot" alt="Headshot"/>
-          <div className="textBox">
+          <div className="textBox mobileBox">
             <h1 id="heading">
               <Typed
                 startDelay={500}
@@ -21,7 +21,7 @@ class LandingPage extends React.Component {
               />
             </h1>
             <p className="blurb">
-              A McMaster Biomedical engineering student, I love tackling challenges with a design oriented approach. I have a passion for using technology to find innovative solutions to tomorrow's problems.
+              As a Biomedical Engineering student, I love tackling challenges with a design oriented approach. I have a passion for technology, I want to work towards finding the innovative and disruptive solutions to tomorrow's problems!
             </p>
           </div>
         </div>
