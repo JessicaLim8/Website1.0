@@ -12,7 +12,7 @@ class LandingPage extends React.Component {
       <div className="landing">
         <div className="mainInfo">
           <img src={Headshot} id="headshot" alt="Headshot"/>
-          <div className="textBox mobileBox">
+          <div className="textBox">
             <h1 id="heading">
               <Typed
                 startDelay={500}
@@ -21,7 +21,7 @@ class LandingPage extends React.Component {
               />
             </h1>
             <p className="blurb">
-              As a Biomedical Engineering student, I love tackling challenges with a design oriented approach. I have a passion for technology, I want to work towards finding the innovative and disruptive solutions to tomorrow's problems!
+              As a Biomedical engineering student, I love tackling challenges with a design oriented approach. I have a passion technology, I want to work towards finding the innovative and disruptive solutions to tomorrow's problems!
             </p>
           </div>
         </div>
@@ -29,7 +29,7 @@ class LandingPage extends React.Component {
           <MediaIcon icon={faGithubSquare} href="https://github.com/JessicaLim8"/>
           <MediaIcon icon={faLinkedin} href="https://linkedin.com/in/jlim/"/>
           <MediaIcon icon={faEnvelopeSquare} href="mailto:jessicalim@bell.net"/>
-          <MediaIcon icon={faFile} href="https://drive.google.com/file/d/1uyMLF65oR5MAREn_FopslHcurG2KpWms/view?usp=sharing"/>
+          <MediaIcon icon={faFile} href="https://drive.google.com/file/d/14VYi7c_xeyt7f2VOVlv3YOfXHYQt5ocl/view?usp=sharing"/>
         </div>
       </div>
     );
