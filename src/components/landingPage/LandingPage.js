@@ -21,7 +21,7 @@ class LandingPage extends React.Component {
               />
             </h1>
             <p className="blurb">
-              As a Biomedical engineering student, I love tackling challenges with a design oriented approach. I have a passion technology, I want to work towards finding the innovative and disruptive solutions to tomorrow's problems!
+              As a Software & Biomedical engineering student, I love tackling challenges with a design oriented approach. I have a passion technology, I want to work towards finding the innovative and disruptive solutions to tomorrow's problems!
             </p>
           </div>
         </div>
