@@ -21,7 +21,7 @@ class LandingPage extends React.Component {
               />
             </h1>
             <p className="blurb">
-              As a Software & Biomedical engineering student, I love tackling challenges with a design oriented approach. I have a passion technology, I want to work towards finding the innovative and disruptive solutions to tomorrow's problems!
+              As a Software & Biomedical engineering student, I have a passion for the new, the unimagined and the innovative. I’m extremely excited about the leading role that technological development plays in innovation today and would love to get involved in any way that will make a positive impact!
             </p>
           </div>
         </div>
@@ -29,7 +29,7 @@ class LandingPage extends React.Component {
           <MediaIcon icon={faGithubSquare} href="https://github.com/JessicaLim8"/>
           <MediaIcon icon={faLinkedin} href="https://linkedin.com/in/jlim/"/>
           <MediaIcon icon={faEnvelopeSquare} href="mailto:jessicalim@bell.net"/>
-          <MediaIcon icon={faFile} href="https://drive.google.com/file/d/14VYi7c_xeyt7f2VOVlv3YOfXHYQt5ocl/view?usp=sharing"/>
+          <MediaIcon icon={faFile} href="https://drive.google.com/file/d/1TSAeQWovCdXWNPqZvo6v51vkZb_FgODF/view?usp=sharing" />
         </div>
       </div>
     );
